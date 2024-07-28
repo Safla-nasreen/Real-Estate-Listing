@@ -1,0 +1,333 @@
+/* Body and container styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header styles */
+header {
+    background: #006666;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #205050 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* Footer styles */
+footer {
+    background: #006666;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Navbar styles */
+.custom-navbar-top {
+    background-color: #006666;
+    padding: 5px 15px; /* Reduce padding to decrease height */
+}
+
+.custom-navbar-top .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding: 0; /* Remove padding from the brand */
+}
+
+.custom-navbar-top .navbar-brand h3 {
+    margin: 0;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 1.5rem; /* Adjust font size if needed */
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important;
+    padding: 5px 10px; /* Reduce padding to decrease height */
+    font-size: 0.9rem; /* Adjust font size if needed */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ddd !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #006666; /* Aqua green background for dropdown */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #000; /* Black text for visibility */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #20B2AA; /* Light Sea Green on hover */
+}
+
+.navbar-toggler {
+    padding: 5px 10px; /* Reduce padding of the toggler */
+}
+
+.form-inline .form-control {
+    margin-right: 5px; /* Space between input and button */
+}
+
+.navbar-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-form .form-control {
+    width: 250px;
+}
+
+.btn-outline-light {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-light:hover {
+    color: #006666;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+/* Login and registration form styles */
+form {
+    margin: 0 auto;
+    width: 300px;
+    padding: 2em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="submit"] {
+    font: 1em sans-serif;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    padding: 10px;
+    margin: 5px 0 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #006666;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Property list styles */
+.property-card {
+    float: left;
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.property-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.property-card img {
+    width: 100%;
+    height: auto;
+}
+
+.property-card h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+}
+
+.property-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.property-card .price {
+    font-size: 20px;
+    color: #20B2AA;
+    margin-top: 10px;
+}
+
+/* Property detail styles */
+.property-detail {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+.property-detail img {
+    width: 100%;
+    height: auto;
+}
+
+.property-detail h2 {
+    font-size: 28px;
+    color: #333;
+    margin-top: 0;
+}
+
+.property-detail p {
+    font-size: 16px;
+    color: #666;
+}
+
+.property-detail .price {
+    font-size: 24px;
+    color: #20B2AA;
+    margin-top: 10px;
+}
+
+/* Home page styles */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.property-types {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.property-type-card {
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+}
+
+.property-type-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.property-type-card img {
+    width: 100%;
+    height: auto;
+}
+
+.property-type-card h3 {
+    font-size: 22px;
+    color: #333;
+    margin-top: 0;
+}
+
+.property-type-card p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.property-type-card a {
+    display: block;
+    margin-top: 10px;
+    color: #20B2AA;
+    text-decoration: none;
+}
+
+.property-type-card a:hover {
+    text-decoration: underline;
+}
+
+/* Adjusting the search form alignment */
+.search-form .form-control {
+    margin-right: 5px;
+    width: auto;
+    display: inline-block;
+}
+
+.search-form button {
+    display: inline-block;
+}
+
+.search-form .row {
+    justify-content: center;
+    align-items: center;
+}
+/* Custom styles for the contact form */
+.contact-form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    color: #20B2AA;
+    margin-bottom: 20px;
+}
+
+.contact-form-container .form-control {
+    border: 1px solid #20B2AA;
+    border-radius: 4px;
+}
+
+.contact-form-container .btn-primary {
+    background-color: #20B2AA;
+    border-color: #20B2AA;
+}
+
+.contact-form-container .btn-primary:hover {
+    background-color: #1e9a8a;
+    border-color: #1e9a8a;
+}
